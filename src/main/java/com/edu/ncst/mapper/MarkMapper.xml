@@ -6,6 +6,8 @@
         <result column="userId" jdbcType="INTEGER" property="userid" />
         <result column="bookId" jdbcType="INTEGER" property="bookid" />
         <result column="markTime" jdbcType="TIMESTAMP" property="marktime" />
+        <result column="userName"  property="userName" />
+        <result column="bookName"  property="bookName" />
     </resultMap>
     <sql id="Base_Column_List">
         markId, userId, bookId, markTime
